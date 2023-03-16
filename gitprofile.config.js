@@ -2,30 +2,30 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'AgentDeath253', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 100, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: '',
+    twitter: 'agentdeath2',
+    mastodon: '',
     facebook: '',
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://agentdeath.net',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'me@agentdeath.net',
   },
   resume: {
     fileUrl:
@@ -33,81 +33,73 @@ const config = {
   },
   skills: [
     'PHP',
-    'Laravel',
     'JavaScript',
-    'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
+    'MTML',
     'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Falixnodes',
+      position: 'Moderator/Support Agent',
+      from: 'Febuary 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://falixnodes.net',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Death Hosting',
+      position: 'Owner (Devolved)',
+      from: 'June 2022',
+      to: 'January 2023',
+      companyLink: '',
     },
   ],
   /* certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: '',
+      body: '',
+      year: '',
+      link: ''
     },
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: '',
+      degree: '',
+      from: '',
+      to: '',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: '',
+      degree: '',
+      from: '',
+      to: '',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Falix Desktop Rewrite',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A rewrite of falixnodes Desktop',
+      imageUrl: 'https://camo.githubusercontent.com/d70702e4084be0f3700d126699ed1d13340dd5a669784ca2a30ab2c31038683e/68747470733a2f2f692e696d6775722e636f6d2f37797a513875312e706e67',
+      link: 'https://falixnodes.net',
     },
     {
-      title: 'Project Name',
+      title: 'Falix Mobile',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A Rewrite of the Falix Mobile App',
+      imageUrl: '',
+      link: 'https://falixnodes.net',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    username: 'agentdeath', // to hide blog section, keep it empty
+    limit: 100, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
@@ -178,11 +170,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Coding Is Awesome `,
 };
 
 export default config;
