@@ -19,7 +19,7 @@ const config = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: '',
+    dev: AgentDeath253'',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
@@ -110,7 +110,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'AgentDeath', // to hide blog section, keep it empty
+    username: 'AgentDeath253', // to hide blog section, keep it empty
     limit: 100, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
