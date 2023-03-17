@@ -18,7 +18,7 @@ const config = {
     instagram: '',
     dribbble: '',
     behance: '',
-    medium: '',
+    medium: 'AgentDeath',
     dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
