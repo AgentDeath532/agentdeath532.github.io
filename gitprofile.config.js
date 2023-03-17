@@ -83,8 +83,8 @@ const config = {
     {
       title: 'Falix Desktop Rewrite',
       description:
-        'A rewrite of falixnodes Desktop',
-      imageUrl: 'https://camo.githubusercontent.com/d70702e4084be0f3700d126699ed1d13340dd5a669784ca2a30ab2c31038683e/68747470733a2f2f692e696d6775722e636f6d2f37797a513875312e706e67',
+        'A Rewrite of falixnodes Desktop',
+      imageUrl: '',
       link: 'https://falixnodes.net',
     },
     {
@@ -94,6 +94,18 @@ const config = {
       imageUrl: '',
       link: 'https://falixnodes.net',
     },
+    {
+    title: 'Xera 2.0',
+    description: 'A Rewrite Of MOFH Client Area Called Xera In Hopes To Fix Issues With It and Keep It Up To Date',
+  imageUrl: '',
+  link: '',
+  },
+  {
+  title: 'Miracle Bot',
+  description: 'An All Purpose Discord Bit That Will be Entering Development',
+  imageUrl: '',
+  link: '',
+  },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
