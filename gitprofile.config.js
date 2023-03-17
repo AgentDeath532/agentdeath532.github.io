@@ -19,7 +19,7 @@ const config = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: AgentDeath253'',
+    dev: 'AgentDeath253',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
