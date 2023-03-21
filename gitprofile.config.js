@@ -110,7 +110,7 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
-    username: '@AgentDeath', // to hide blog section, keep it empty
+    username: 'AgentDeath', // to hide blog section, keep it empty
     limit: 10, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
