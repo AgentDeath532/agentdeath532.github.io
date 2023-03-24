@@ -63,9 +63,9 @@ jobs:
       - name: update
 
 
-         run: npm update
+       run: npm update
 
-  
+
       - name: Install dependencies
 
          run: npm install  
