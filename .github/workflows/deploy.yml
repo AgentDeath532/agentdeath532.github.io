@@ -62,6 +62,8 @@ jobs:
 
       - name: Install dependencies
 
+        run: npm update
+       
         run: npm install
 
       - name: Build with vite
