@@ -60,13 +60,18 @@ jobs:
 
           key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
 
+      - name: update
+
+
+         run: npm update
+
+  
       - name: Install dependencies
 
-        run: npm update
-       
-        run: npm install
-
-      - name: Build with vite
+         run: npm install  
+ 
+ 
+     - name: Build with vite
 
         run: npm run build
 
