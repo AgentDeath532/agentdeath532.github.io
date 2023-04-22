@@ -6,7 +6,7 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 100, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
@@ -29,7 +29,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://AgentDeath.net/files/Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://AgentDeath.net/#', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -38,13 +38,16 @@ const config = {
     'MySQL',
     'MTML',
     'Git',
-  ],
+    'Json',
+    'Python',
+    'YML',
+    ],
   experiences: [
     {
       company: 'Falixnodes',
       position: 'Moderator/Support Agent',
       from: 'Febuary 2022',
-      to: 'Present',
+      to: 'April 2023',
       companyLink: 'https://falixnodes.net',
     },
     {
@@ -65,10 +68,10 @@ const config = {
   ], */
   education: [
     {
-      institution: '',
-      degree: '',
-      from: '',
-      to: '',
+      institution: 'Mann Middel School',
+      degree: 'General Education',
+      from: '2017',
+      to: '2019',
     },
     {
       institution: '',
@@ -81,30 +84,24 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Falix Desktop Rewrite',
+      title: 'Pylex Mobile',
       description:
-        'A Rewrite of falixnodes Desktop',
+        'Pylex Mobile App',
       imageUrl: '',
-      link: 'https://falixnodes.net',
+      link: 'https://pylexnodes.net',
     },
     {
-      title: 'Falix Mobile',
+      title: 'Pylex Desktop',
       description:
-        'A Rewrite of the Falix Mobile App',
+        'Pylex Desktop App',
       imageUrl: '',
-      link: 'https://falixnodes.net',
+      link: 'https://pylexnodes.net',
     },
-    {
-    title: 'Xera 2.0',
-    description: 'A Rewrite Of MOFH Client Area Called Xera In Hopes To Fix Issues With It and Keep It Up To Date',
-  imageUrl: '',
-  link: '',
-  },
   {
   title: 'Miracle Bot',
-  description: 'An All Purpose Discord Bit That Will be Entering Development',
+  description: 'An All Purpose Discord Bot',
   imageUrl: '',
-  link: '',
+  link: 'https://discord.gg/HzqTRCf6hM',
   },
   ],
   // Display blog posts from your medium or dev account. (Optional)
@@ -122,7 +119,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -182,7 +179,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Coding Is Awesome `,
+  footer: `Coding Is Awesome`,
 };
 
 export default config;
