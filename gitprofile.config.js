@@ -41,6 +41,7 @@ const config = {
     'Json',
     'Python',
     'YML',
+    'Astro',
     ],
   experiences: [
     {
@@ -94,6 +95,13 @@ const config = {
       title: 'Pylex Desktop',
       description:
         'Pylex Desktop App',
+      imageUrl: '',
+      link: 'https://pylexnodes.net',
+    },
+        {
+      title: 'PylexNodes Webiste',
+      description:
+        'Landing Page For PylexNodes',
       imageUrl: '',
       link: 'https://pylexnodes.net',
     },
@@ -179,7 +187,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Coding Is Awesome`,
+  footer: `PylexNodes Is Great!`,
 };
 
 export default config;
