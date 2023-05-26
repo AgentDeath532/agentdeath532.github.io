@@ -45,6 +45,13 @@ const config = {
     ],
   experiences: [
     {
+      company: 'PylexNodes',
+      position: 'Developer/Support Agent',
+      from: 'May 2023',
+      to: '',
+      companyLink: 'https://pylexnodes.net',
+    },
+    {
       company: 'Falixnodes',
       position: 'Moderator/Support Agent',
       from: 'Febuary 2022',
