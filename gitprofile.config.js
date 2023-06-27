@@ -44,11 +44,17 @@ const config = {
     'Astro',
     ],
   experiences: [
+    company: 'Death Hosting',
+      position: 'Owner',
+      from: 'June 2023',
+      to: '',
+      companyLink: '#',
+    },
     {
       company: 'PylexNodes',
       position: 'Developer/Support Agent',
       from: 'May 2023',
-      to: '',
+      to: 'June 2023',
       companyLink: 'https://pylexnodes.net',
     },
     {
@@ -91,27 +97,6 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
-      title: 'Pylex Mobile',
-      description:
-        'Pylex Mobile App',
-      imageUrl: '',
-      link: 'https://pylexnodes.net',
-    },
-    {
-      title: 'Pylex Desktop',
-      description:
-        'Pylex Desktop App',
-      imageUrl: '',
-      link: 'https://pylexnodes.net',
-    },
-        {
-      title: 'PylexNodes Webiste',
-      description:
-        'Landing Page For PylexNodes',
-      imageUrl: '',
-      link: 'https://pylexnodes.net',
-    },
   {
   title: 'Miracle Bot',
   description: 'An All Purpose Discord Bot',
@@ -194,7 +179,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `PylexNodes Is Great!`,
+  footer: `I Am Death`,
 };
 
 export default config;
