@@ -136,6 +136,7 @@ const config = {
    description: 'A Server Hosting Company',
    imageurl: '',
    link: '',
+  }
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
