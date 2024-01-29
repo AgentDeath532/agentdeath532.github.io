@@ -15,7 +15,7 @@ const config = {
     twitter: 'agentdeath2',
     mastodon: '',
     facebook: '',
-    instagram: '',
+    instagram: 'grace.is.a.devil',
     dribbble: '',
     behance: '',
     medium: 'AgentDeath',
@@ -32,23 +32,44 @@ const config = {
       'https://AgentDeath.net/#', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'JavaScript',
-    'Node.js',
-    'MySQL',
-    'MTML',
-    'Git',
-    'Json',
-    'Python',
-    'YML',
-    'Astro',
+    'PHP (Basic To None)',
+    'JavaScript (Basic To None)',
+    'Node.js (Minimal)',
+    'MySQL (Minimal)',
+    'MTML (Minimal)',
+    'Git' (Minimal),
+    'Json (Fluent)',
+    'Python (Minimal)',
+    'YML (Fluent)',
+    'Astro (Minimal)',
     ],
   experiences: [
+      company: 'FluxNodes LLC',
+      position: 'Owner/Executive',
+      from: 'January 2024',
+      to: '',
+      companyLink: 'https://fluxnodes.net',
+    },
+    {
+      company: 'Arcanix',
+      position: 'Managenent Team',
+      from: 'December 2023',
+      to: 'January 2023',
+      companyLink: 'https://arcanix.net',
+    },
+    {
+      company: 'Myridax Cloud',
+      position: 'Managenent Team',
+      from: 'November 2023',
+      to: 'December 2023',
+      companyLink: 'https://myridax.cloud',
+    },
+    {
     company: 'Death Hosting',
       position: 'Owner',
       from: 'June 2023',
-      to: '',
-      companyLink: '#',
+      to: 'November 2023',
+      companyLink: 'https://death-hosting.net',
     },
     {
       company: 'PylexNodes',
@@ -69,7 +90,7 @@ const config = {
       position: 'Owner (Devolved)',
       from: 'June 2022',
       to: 'January 2023',
-      companyLink: '',
+      companyLink: 'https://death-hosting.net',
     },
   ],
   /* certifications: [
@@ -88,9 +109,15 @@ const config = {
       to: '2019',
     },
     {
-      institution: '',
-      degree: '',
-      from: '',
+      institution: 'Lakes High School',
+      degree: 'General Education',
+      from: '2019',
+      to: '2023',
+    },
+    {
+      institution: 'Open Doors',
+      degree: 'General Education',
+      from: '2024',
       to: '',
     },
   ],
@@ -101,13 +128,18 @@ const config = {
   title: 'Miracle Bot',
   description: 'An All Purpose Discord Bot',
   imageUrl: '',
-  link: 'https://discord.gg/HzqTRCf6hM',
+  link: '',
   },
+  {
+   title: 'FluxNodes',
+   description: 'A Server Hosting Company',
+   imageurl: '',
+   link: '',
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'medium', // medium | dev
-    username: 'AgentDeath', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 10, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
