@@ -37,7 +37,7 @@ const config = {
     'Node.js (Minimal)',
     'MySQL (Minimal)',
     'MTML (Minimal)',
-    'Git' (Minimal),
+    'Git (Minimal)',
     'Json (Fluent)',
     'Python (Minimal)',
     'YML (Fluent)',
