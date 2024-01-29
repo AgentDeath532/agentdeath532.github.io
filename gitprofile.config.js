@@ -44,6 +44,7 @@ const config = {
     'Astro (Minimal)',
     ],
   experiences: [
+    {
       company: 'FluxNodes LLC',
       position: 'Owner/Executive',
       from: 'January 2024',
