@@ -48,7 +48,7 @@ const config = {
       company: 'FluxNodes LLC',
       position: 'Owner/Executive',
       from: 'January 2024',
-      to: '',
+      to: 'Febuary 2024',
       companyLink: 'https://fluxnodes.net',
     },
     {
