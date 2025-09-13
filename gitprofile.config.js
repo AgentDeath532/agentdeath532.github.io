@@ -45,22 +45,29 @@ const config = {
     ],
   experiences: [
     {
+      company: 'Scale Hosting LLC',
+      position: 'Owner/Manager',
+      from: 'August 2025',
+      to: '',
+      companyLink: 'https://scalehosting.net',
+    },
+    {
       company: 'FluxNodes LLC',
       position: 'Owner/Executive',
       from: 'January 2024',
-      to: 'Febuary 2024',
+      to: 'February 2024',
       companyLink: 'https://fluxnodes.net',
     },
     {
       company: 'Arcanix',
-      position: 'Managenent Team',
+      position: 'Management Team',
       from: 'December 2023',
       to: 'January 2023',
       companyLink: 'https://arcanix.net',
     },
     {
       company: 'Myridax Cloud',
-      position: 'Managenent Team',
+      position: 'Management Team',
       from: 'November 2023',
       to: 'December 2023',
       companyLink: 'https://myridax.cloud',
@@ -82,7 +89,7 @@ const config = {
     {
       company: 'Falixnodes',
       position: 'Moderator/Support Agent',
-      from: 'Febuary 2022',
+      from: 'February 2022',
       to: 'April 2023',
       companyLink: 'https://falixnodes.net',
     },
@@ -119,12 +126,18 @@ const config = {
       institution: 'Open Doors',
       degree: 'General Education',
       from: '2024',
-      to: '',
+      to: '2024',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+  {
+   title: 'Scale Hosting',
+   description: 'A Hosting Company',
+   imageurl: '',
+   link: 'https://scalehosting.net',
+  }
   {
   title: 'Miracle Bot',
   description: 'An All Purpose Discord Bot',
