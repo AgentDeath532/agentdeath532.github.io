@@ -1,37 +1,32 @@
 @import 'tailwindcss';
 @plugin "daisyui" {
-  themes:
-    'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate',
-    'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden',
-    'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black',
-    'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade',
-    'night', 'coffee', 'winter', 'dim', 'nord', 'sunset', 'caramellatte',
-    'abyss', 'silk', 'procyon';
+  themes: 'transfem';
 }
 
 @plugin "daisyui/theme" {
-  name: 'procyon';
+  name: 'transfem';
+  default: true;
   color-scheme: light;
 
-  --color-base-100: #e3e3ed;
-  --color-base-200: #d1d1db;
-  --color-base-300: #bfbfc9;
-  --color-base-content: #2a2730;
-  --color-primary: #fc055b;
-  --color-primary-content: #ffffff;
-  --color-secondary: #219aaf;
-  --color-secondary-content: #ffffff;
-  --color-accent: #e8d03a;
-  --color-accent-content: #2a2730;
-  --color-neutral: #2a2730;
-  --color-neutral-content: #ffffff;
-  --color-info: #219aaf;
-  --color-info-content: #ffffff;
+  --color-base-100: #fff7fa;
+  --color-base-200: #fbe9ef;
+  --color-base-300: #f3d5de;
+  --color-base-content: #2b1f27;
+  --color-primary: #f5a9b8;
+  --color-primary-content: #3b1c27;
+  --color-secondary: #5bcefa;
+  --color-secondary-content: #0f2a3a;
+  --color-accent: #c9a7eb;
+  --color-accent-content: #2b1f27;
+  --color-neutral: #2b1f27;
+  --color-neutral-content: #fff7fa;
+  --color-info: #5bcefa;
+  --color-info-content: #0f2a3a;
   --color-success: #16a34a;
   --color-success-content: #ffffff;
-  --color-warning: #e8d03a;
-  --color-warning-content: #2a2730;
-  --color-error: #dc2626;
+  --color-warning: #f5b642;
+  --color-warning-content: #2b1f27;
+  --color-error: #e11d48;
   --color-error-content: #ffffff;
 
   /* border radius */
@@ -56,9 +51,9 @@
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (min-width: 966px) {
@@ -66,12 +61,12 @@
   .scroller {
     width: 8px;
     height: 8px;
-    background-color: #f1f1f1;
+    background-color: #fbe9ef;
   }
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #888;
+  background-color: #d9a3b6;
   border-radius: 10px;
 }
 
