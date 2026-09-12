@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'AgentDeath532', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -17,141 +17,191 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 64, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+  {
+    title: 'Scale Hosting',
+    description: 'Minecraft and Discord bot hosting platform. Pterodactyl-based with Paymenter billing, Hetzner dedicated nodes behind Cloudflare. Free-forever tier with idle-server hibernation, one-click modpacks, Geyser crossplay and a subdomain feature. Launched Sept 2026.',
+    tech: ['PHP', 'Laravel', 'Pterodactyl', 'Docker', 'Cloudflare', 'Stripe'],
+    link: 'https://scalehosting.net',
+  },
+  {
+    title: 'Warden',
+    description: 'Anti-abuse system for Scale Hosting. Paymenter extension owning enforcement, strikes and appeals; hardened distroless container images; forked Wings daemon with per-container telemetry, an observe→suspend enforcement ladder and cgroup-based hibernation. ScaleShield handles alt/VPN detection via device fingerprinting.',
+    tech: ['Go', 'PHP', 'Laravel', 'Docker', 'nftables'],
+  },
+  {
+    title: 'Node uptime API',
+    description: 'Lightweight uptime monitoring API for tracking distributed hosting nodes.',
+    tech: ['PHP', 'SQLite'],
+  },
+],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Maddie', description: '', imageURL: 'https://scalehosting.net/storage/logo-dark.webp' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'madison-dean-1b349b436',
+    x: 'maddiedean253',
+    mastodon: 'MaddieDean@mastodon.social',
     researchGate: '',
     facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
+    instagram: 'grace.is.a.devil',
+    reddit: 'u/Optimasprime11',
+    threads: 'grace.is.a.devil',
+    youtube: 'MadisonDean253', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
+    discord: '1315893969686630445',
     telegram: '',
     website: 'https://www.arifszn.com',
-    phone: '',
-    email: '',
+    phone: '+1 (253) 882-6154',
+    email: 'MadisonDean@Scalehosting.net',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+  'PHP',
+  'Go',
+  'Laravel',
+  'JavaScript',
+  'Node.js',
+  'discord.js',
+  'Express',
+  'MySQL / MariaDB',
+  'SQLite',
+  'REST API design',
+  'Stripe',
+  'Docker',
+  'Linux',
+  'Git',
+  'Pterodactyl / Wings',
+  'Paymenter extensions',
+  'Cloudflare (DNS / WAF)',
+  'HTML / CSS',
+  'Anti-abuse & fraud detection',
+],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
+  {
+    company: 'Scale Hosting Limited',
+    position: 'Founder & Director',
+    from: 'January 2026',
+    to: 'Present',
+    companyLink: 'https://scalehosting.net',
+  },
+  {
+    company: 'Amazon',
+    position: 'Warehouse Associate',
+    from: 'April 2026',
+    to: 'Present',
+    companyLink: 'https://www.amazon.com',
+  },
+  {
+    company: "McDonald's",
+    position: 'Crew Member → Crew Trainer → Overnight Manager',
+    from: 'October 2023',
+    to: 'April 2026',
+    companyLink: 'https://www.mcdonalds.com',
+  },
+  {
+    company: 'Myridax Cloud',
+    position: 'Manager',
+    from: 'August 2025',
+    to: 'February 2026',
+    companyLink: '',
+  },
+  {
+    company: 'Flux Hosting',
+    position: 'President',
+    from: 'August 2025',
+    to: 'November 2025',
+    companyLink: '',
+  },
+  {
+    company: 'FalixNodes',
+    position: 'Support',
+    from: '2021',
+    to: '2022',
+    companyLink: 'https://falixnodes.net',
+  },
+],
   certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  {
+    name: 'ServSafe Food Protection Manager',
+    body: 'National Restaurant Association',
+    year: 'Month 2024',
+    link: 'https://www.servsafe.com',
+  },
+  {
+    name: 'Washington State Food Worker Card',
+    body: 'Washington State Department of Health',
+    year: 'October 2023',
+    link: 'https://www.foodworkercard.wa.gov',
+  },
+  {
+    name: 'Powered Industrial Truck (Forklift) Operator',
+    body: 'Amazon — includes VNA (very narrow aisle) certification',
+    year: 'April 2026',
+    link: '',
+  },
+],
   educations: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  {
+    institution: 'Tacoma Community College',
+    degree: 'Enrolled — no active classes',
+    from: 'Year',
+    to: 'Present',
+  },
+  {
+    institution: 'Clover Park Technical College',
+    degree: 'Enrolled — no active classes',
+    from: 'Year',
+    to: 'Present',
+  },
+  {
+    institution: 'Gravelly Lake K-12 Academy (Open Doors)',
+    degree: 'GED (in progress)',
+    from: '2022',
+    to: 'Present',
+  },
+  {
+    institution: 'Lakes High School',
+    degree: 'Grades 9–11',
+    from: '2019',
+    to: '2022',
+  },
+  {
+    institution: 'Mann Middle School',
+    degree: 'Grades 6–8',
+    from: '2016',
+    to: '2019',
+  },
+  {
+    institution: 'Lake Louise Elementary',
+    degree: 'Grades K–5',
+    from: '2010',
+    to: '2016',
+  },
+],
+publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
