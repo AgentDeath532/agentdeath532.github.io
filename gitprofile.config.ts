@@ -70,13 +70,13 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '1315893969686630445',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://scalehosting.net',
     phone: '+1 (253) 882-6154',
     email: 'MadisonDean@Scalehosting.net',
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://agentdeath532.github.io/Madison_Dean_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
   'PHP',
